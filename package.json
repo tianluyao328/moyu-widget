@@ -1,9 +1,29 @@
 {
-  "name": "@local/moyu-widget",
+  "name": "dsh-moyu-widget",
   "version": "0.1.0",
-  "private": true,
   "type": "module",
-  "description": "A quiet top-right corner: a plausible subagent trace that flips into a live index ticker on hover.",
+  "description": "摸鱼角：一个假装在跑 subagent、其实在看大盘的 DeepSeek Harness 右上角小组件。",
+  "license": "MIT",
+  "author": "tianluyao328",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tianluyao328/moyu-widget.git"
+  },
+  "homepage": "https://github.com/tianluyao328/moyu-widget#readme",
+  "bugs": {
+    "url": "https://github.com/tianluyao328/moyu-widget/issues"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "dsh-plugin",
+    "widget",
+    "stock",
+    "ticker",
+    "a-share",
+    "行情",
+    "摸鱼"
+  ],
   "exports": {
     ".": "./index.js",
     "./client": "./client.js",

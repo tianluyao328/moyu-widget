@@ -9,6 +9,7 @@
 给 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) Web 端做的非官方插件。
 
 [![for DSH](https://img.shields.io/badge/for-DeepSeek%20Harness-4176e6?style=flat-square)](#)
+[![npm](https://img.shields.io/npm/v/dsh-moyu-widget?style=flat-square&color=4176e6)](https://www.npmjs.com/package/dsh-moyu-widget)
 [![license](https://img.shields.io/badge/license-MIT-0f1115?style=flat-square)](LICENSE)
 [![摸鱼](https://img.shields.io/badge/%E6%91%B8%E9%B1%BC-%E5%B7%B2%E6%89%B9%E5%87%86-e5484d?style=flat-square)](#)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-22c55e?style=flat-square)](#)
@@ -59,30 +60,34 @@
 
 前提：你用的是带 Web 端的 DeepSeek Harness（桌面版或 `dsh web`），并且能访问东方财富 / 腾讯的行情接口。
 
+**从 npm 装（推荐）**
+
+在 DSH 的会话里让 agent 执行：
+
+```
+plugin_manager → install_bundle → dsh-moyu-widget
+```
+
+装完刷新一下页面，右上角就有了。也可以手动：
+
+```bash
+cd ~/.dsh/profiles/<你的 profile>
+pnpm add dsh-moyu-widget
+```
+
+然后把 `dsh-moyu-widget` 加进同一个 `package.json` 的 `dsh.profile.bundles` 数组，重开窗口。
+
+**从源码装（改代码用）**
+
 ```bash
 git clone https://github.com/tianluyao328/moyu-widget.git
 ```
-
-**方式 A：让 DSH 自己装（推荐）**
-
-在 DSH 的会话里让 agent 执行：
 
 ```
 plugin_manager → install_bundle → link:/绝对路径/moyu-widget
 ```
 
-装完刷新一下页面，右上角就有了。
-
-**方式 B：手动**
-
-```bash
-cd ~/.dsh/profiles/<你的 profile>
-pnpm add link:/绝对路径/moyu-widget
-```
-
-然后把 `@local/moyu-widget` 加进同一个 `package.json` 的 `dsh.profile.bundles` 数组，重开窗口。
-
-> 插件 id 是 `@local/moyu-widget`，bundle 里自带一行 `cordis.patch.yml`，不需要额外改 profile 的 patch。
+> 插件 id 是 `dsh-moyu-widget`，bundle 里自带一行 `cordis.patch.yml`，不需要额外改 profile 的 patch。
 
 ## 它是怎么工作的
 

@@ -1,4 +1,4 @@
 # moyu-widget bundle patch: one row, all rendering owned by the Client module.
 - insert:
     - id: moyu-widget
-      name: '@local/moyu-widget'
+      name: 'dsh-moyu-widget'

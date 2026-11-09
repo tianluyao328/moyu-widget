@@ -7,7 +7,7 @@
  * the module table.
  */
 window.__ModuleLoader__.load({
-  id: '@local/moyu-widget',
+  id: 'dsh-moyu-widget',
   factory(require) {
     const React = require('react');
     const ReactDOM = require('react-dom');
