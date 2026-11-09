@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="摸鱼角 · Moyu Corner">
+  <defs>
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f6f8fb"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="1199" height="299" rx="28" fill="url(#sheen)" stroke="#0f111514"/>
+  <text x="72" y="92" font-family="'SF Mono', Menlo, monospace" font-size="13" letter-spacing="5" fill="#adb2b8">MOYU CORNER</text>
+  <text x="66" y="160" font-family="'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="62" font-weight="700" letter-spacing="2" fill="#0f1115">摸鱼角</text>
+  <text x="72" y="202" font-family="'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="19" fill="#61666b">假装在跑 subagent 的右上角小组件</text>
+  <text x="72" y="234" font-family="'SF Mono', Menlo, monospace" font-size="13" letter-spacing="0.5" fill="#adb2b8">hover → 上证 · 自选　　移开 → 继续「干活」</text>
+  <g transform="translate(846 48)">
+    <rect x="0.5" y="0.5" width="291" height="203" rx="21" fill="#ffffff" stroke="#0f111518"/>
+    <circle cx="26" cy="34" r="4.5" fill="#4176e6"/>
+    <text x="42" y="39" font-family="'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="14" font-weight="500" fill="#0f1115">子代理运行中</text>
+    <text x="264" y="39" text-anchor="end" font-family="'SF Mono', Menlo, monospace" font-size="10" fill="#adb2b8">#4f2c</text>
+    <circle cx="26" cy="72" r="5" fill="none" stroke="#4176e6" stroke-width="1.6" stroke-dasharray="5 3"/>
+    <rect x="42" y="68" width="118" height="7" rx="3.5" fill="#e9edf3"/>
+    <circle cx="26" cy="102" r="5" fill="none" stroke="#c3cbd6" stroke-width="1.6" stroke-dasharray="5 3"/>
+    <rect x="42" y="98" width="96" height="7" rx="3.5" fill="#eef1f6"/>
+    <circle cx="26" cy="132" r="5" fill="none" stroke="#c3cbd6" stroke-width="1.6" stroke-dasharray="5 3"/>
+    <rect x="42" y="128" width="132" height="7" rx="3.5" fill="#eef1f6"/>
+    <line x1="20" y1="156" x2="272" y2="156" stroke="#0f111510"/>
+    <polyline points="20,192 34,184 48,188 62,177 76,181 90,172 104,176 118,169 132,173 146,166 160,170 174,163 188,167 202,160 216,164 230,158 244,161 258,156 272,159" fill="none" stroke="#d0453f" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="272" cy="159" r="3" fill="#d0453f"/>
+  </g>
+</svg>
