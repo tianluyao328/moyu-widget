@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="docs/banner.svg" alt="摸鱼角 · Moyu Corner" width="880" />
+  <img src="https://raw.githubusercontent.com/tianluyao328/moyu-widget/main/docs/banner.svg" alt="摸鱼角 · Moyu Corner" width="880" />
 </div>
 
 <div align="center">
@@ -14,7 +14,7 @@
 [![摸鱼](https://img.shields.io/badge/%E6%91%B8%E9%B1%BC-%E5%B7%B2%E6%89%B9%E5%87%86-e5484d?style=flat-square)](#)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-22c55e?style=flat-square)](#)
 
-<img src="docs/demo.gif" alt="hover 切换演示" width="380" />
+<img src="https://raw.githubusercontent.com/tianluyao328/moyu-widget/main/docs/demo.gif" alt="hover 切换演示" width="380" />
 
 </div>
 
@@ -34,19 +34,19 @@
 
 | 静息 · 像在干活 | 悬停 · 像在盯盘 |
 | :---: | :---: |
-| <img src="docs/idle.png" width="290" /> | <img src="docs/market.png" width="290" /> |
+| <img src="https://raw.githubusercontent.com/tianluyao328/moyu-widget/main/docs/idle.png" width="290" /> | <img src="https://raw.githubusercontent.com/tianluyao328/moyu-widget/main/docs/market.png" width="290" /> |
 
 点右上角的小铅笔可以编辑自选（最多 4 个，存 localStorage），支持 `600519`、`sh600519`、`1.600519` 三种写法：
 
-<img src="docs/editor.png" width="330" alt="编辑自选" />
+<img src="https://raw.githubusercontent.com/tianluyao328/moyu-widget/main/docs/editor.png" width="330" alt="编辑自选" />
 
 放在真实对话页面里大概是这样，基本只剩一圈很细的边和一点点浮起来的影子：
 
-<img src="docs/page-light.png" alt="页面上下文" />
+<img src="https://raw.githubusercontent.com/tianluyao328/moyu-widget/main/docs/page-light.png" alt="页面上下文" />
 
 暗色模式不强行刷白，跟着页面走：
 
-<img src="docs/dark.png" width="300" alt="暗色模式" />
+<img src="https://raw.githubusercontent.com/tianluyao328/moyu-widget/main/docs/dark.png" width="300" alt="暗色模式" />
 
 ## 它尽量不打扰你
 

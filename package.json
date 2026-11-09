@@ -1,6 +1,6 @@
 {
   "name": "dsh-moyu-widget",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "description": "摸鱼角：一个假装在跑 subagent、其实在看大盘的 DeepSeek Harness 右上角小组件。",
   "license": "MIT",
